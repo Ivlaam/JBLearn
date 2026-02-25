@@ -45,8 +45,8 @@ public class Main {
         return 29 * 4 * (-15);
     }
 
-    public static int task3(int number) {
-        int result = (number / 10 ) / 10;
+    public static double task3(int number) {
+        double result = (number / 10.0 ) / 10;
         return result;
     }
 

@@ -71,16 +71,16 @@ class Calculator {
         return a * b;
     }
 
-    public static int div(int a, int b) {
-        return a / b;
-    }
+    public static double div(int a, int b) {
+        return (double) a / b;
+    } //тут я наоборот, думал, надо продемонстрировать особенность целочисленного деления, и числа подобрал, чтобы был отбрасываемый остаток)
 
-    public static long div(long a, long b) {
-        return a / b;
-    }
+    public static double div(long a, long b) {
+        return 1.0 * a / b;
+    } //Вроде, умножение "легче" деления по стоимости операции, как ещё один вариант приведения
 
     public static double div(double a, double b) {
-        return a / b;
+        return 1.0 * a / b;
     }
 }
 
